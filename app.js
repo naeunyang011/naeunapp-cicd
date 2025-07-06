@@ -16,7 +16,8 @@ const server = http.createServer((req, res) => {
             return;
         }
         res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify(results));
+      //  res.end(JSON.stringify(results));
+      res.end('Hello from RDS - Version 2!');
     });
 });
 
