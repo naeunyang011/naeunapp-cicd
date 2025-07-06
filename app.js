@@ -1,7 +1,6 @@
 const http = require('http');
 const mysql = require('mysql2');
-const { parse } = require('querystring');
-
+const { parse } = require('querystring')
 const connection = mysql.createConnection({
   host: 'naeundbinstance.c7kokc40medh.ap-southeast-2.rds.amazonaws.com',
   user: 'admin',
